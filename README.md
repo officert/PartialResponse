@@ -56,4 +56,17 @@ person/123?fields="firstName,lastName,address(street)"
 }
 ```
 
+Excluding fields:
+
+```
+person/123?fields="-id,-address"
+```
+
+```javascript
+{
+  firstName: 'Jack',
+  lastName: 'Black',
+  age: 45
+}
+```
 ***
