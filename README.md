@@ -1,3 +1,6 @@
+This is a port of Anthoy Carl's Partial Response parser in C#:
+https://github.com/AnthonyCarl/ServiceStack.PartialResponse/blob/master/src/ServiceModel/ServiceStack.PartialResponse.ServiceModel/FieldSelectorParser.cs
+
 _By default, the server sends back the full representation of a resource after processing requests. For better performance, you can ask the server to send only the fields you really need and get a partial response instead._
 
 
@@ -107,9 +110,3 @@ venue: {_id: "657cee870ac2cacb", name: "Minibar", type: "lounge"}
 ```
 
 ***
-
-
-**Additional Resources:**
-
-1. Service Stack is a REST API library for C#, they have implemented the Google+ API partial response syntax - maybe we can copy their implementation and port to javascript.
-[https://github.com/AnthonyCarl/ServiceStack.PartialResponse](https://github.com/AnthonyCarl/ServiceStack.PartialResponse)
